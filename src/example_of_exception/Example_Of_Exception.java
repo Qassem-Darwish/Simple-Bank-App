@@ -57,7 +57,6 @@ public class Example_Of_Exception {
             // InputMismatchException is a custom exception
             System.out.println(ime.getMessage());
         } catch (NumberFormatException nfe) {
-            // NumberFormatException is not a custom exception
             System.out.println(nfe.getMessage());
         }
 
